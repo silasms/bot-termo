@@ -115,6 +115,8 @@ let informationsTermooo
     JSON.parse(localStorageDataQuarteto["quatro"])["state"][1]["solution"]
       .normalize("NFD").replace(/[\u0300-\u036f]/g, ""),
     JSON.parse(localStorageDataQuarteto["quatro"])["state"][2]["solution"]
+      .normalize("NFD").replace(/[\u0300-\u036f]/g, ""),
+    JSON.parse(localStorageDataQuarteto["quatro"])["state"][3]["solution"]
       .normalize("NFD").replace(/[\u0300-\u036f]/g, "")]
 
   informationsTermooo = {termo, duo, quatro}
